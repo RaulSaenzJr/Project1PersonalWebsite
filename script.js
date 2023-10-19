@@ -19,7 +19,7 @@ form.addEventListener('submit', (e)=>{
         const {name, value} = input;
         inputs.push({name, value})
     })
-    console.log(inputs)
+    
     form.reset();
     let index = 0;
     const active = document.querySelector('form .step.active');
