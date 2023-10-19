@@ -4,8 +4,14 @@ footer {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    footer {
+        position: relative;
+    }
+}
+
 #sectionform {
-    max-height: 95%; width: 100%; 
+    max-height: calc(100% - 80px);  
     min-height: 75%;
     display: flex; 
     align-items: center; 
@@ -57,5 +63,5 @@ button.previous-btn {
     float: left;
 }
 button.submit-btn {
-    background-color: dimgray;
+    background-color: darkgray;
 }
