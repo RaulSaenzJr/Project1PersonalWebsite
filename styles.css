@@ -63,7 +63,7 @@ h2 {
 footer {
   background-color: #444;
   text-align: center;
-  padding: 1em;
+  padding: auto;
   color: #fff;
 }
 
