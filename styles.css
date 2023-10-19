@@ -5,6 +5,7 @@ body {
     margin: 0 auto;
     padding: 0 auto;
     text-align: center;
+    height: 100%;
 }
 
 header {
@@ -79,6 +80,9 @@ footer {
     text-align: center;
     padding: 1em;
     color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer img {
