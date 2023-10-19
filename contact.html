@@ -28,10 +28,59 @@
         <h1>Raul Saenz</h1>
         <h3>Associate of Applied Science - Computer Info Tech | Personal Chef | Registered Behavioral Technician</h3>
     </header>
- <section id="contact" class="container my-5 section">
-    <h2>Contact Me</h2>
-    <iframe src="https://forms.gle/gJRFEv3r4HFvAoim6" title="Contact Form" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</section>
+    <section id="sectionform">
+        <div class="container3">
+            <form>
+                <h2>Contact Me</h2>
+                <div class="step step-1 index active">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
+                        <div class="form-group">
+                            <label for="eventType">What service are you inquiring about?</label>
+                            <input type="text" id="eventType" name="eventType">
+                        </div>
+                        <button type="button" class="next-btn">Next</button>
+                </div>
+                 <div class="step step-2">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="number" id="phone" name="phone-number">
+                        </div>
+                    <div class="form-group">
+                        <label for="date">Is there a date or deadline?</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                        <button type="button" class="previous-btn">Prev</button>
+                        <button type="button" class="next-btn">Next</button>
+                    </div>
+                    <div class="step step-3">
+                        <div class="form-group">
+                            <label for="location">Location</label>
+                            <input type="text" id="location" name="location">
+                        </div>
+                        <div class="form-group">
+                            <label for="guestCount">If inquiring about personal chef services, how many guests?</label>
+                            <input type="text" id="guestCount" name="guestCount">
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceType">Is there any other information you would like to share?</label>
+                            <input type="text" id="serviceType" name="serviceType">
+                        </div>
+                        <button type="button" class="previous-btn">Prev</button>
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </div>
+                </form>
+            </div></section>
 
 </body>
     <footer class="bg-dark text-white text-center py-3">

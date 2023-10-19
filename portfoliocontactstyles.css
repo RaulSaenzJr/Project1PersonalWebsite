@@ -3,3 +3,59 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+#sectionform {
+    max-height: 95%; width: 100%; 
+    min-height: 75%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.container3 { 
+    min-width: 60%; 
+    max-width: 400%; 
+    background-color: gray; 
+    box-shadow: 0px 0px 20px #00000020; 
+    padding: 25px;
+    border-radius: 8px; 
+    text-align: start; 
+    color: azure;
+    margin-bottom: 5%;
+}
+.container3 h2{
+    text-align: center;
+}
+.step {
+    display: none;
+}
+.step.active {
+    display: block;
+}
+.form-group {
+    width: 100%;
+    margin: 20px auto;
+}
+.form-group input {
+    width: 100%;
+    border: 1.5px solid lightgrey;
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+button.next-btn, button.previous-btn, button.submit-btn {
+    float: right;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color: lightslategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+button.previous-btn {
+    float: left;
+}
+button.submit-btn {
+    background-color: dimgray;
+}
