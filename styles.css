@@ -23,6 +23,7 @@ nav {
     justify-content: center;
     margin: 0 auto;
 }
+
 .bar {
     display: flex;
     justify-content: center;
@@ -46,6 +47,17 @@ nav a {
 
 .intro {
     padding-top: 20px;
+}
+
+.gradient-line {
+    content: "";
+    display: block;
+    position: relative;
+    left: 0;
+    height: 1px; 
+    width: 100%;
+    background: linear-gradient(to right, black, white); 
+    margin: 20px 0px 20px 0px; 
 }
 
 section {
@@ -72,9 +84,11 @@ h2 {
     flex-wrap: wrap;
     text-align: left;
 }
+
 .git {
     padding-bottom: 20px;
 }
+
 footer {
     background-color: #444;
     text-align: center;
