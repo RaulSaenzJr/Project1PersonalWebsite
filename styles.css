@@ -57,7 +57,7 @@ nav a {
     height: 1px; 
     width: 100%;
     background: linear-gradient(to right, black, white); 
-    margin: 20px 0px 20px 0px; 
+    margin: 20px 20px 20px 20px; 
 }
 
 section {
