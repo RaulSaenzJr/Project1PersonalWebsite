@@ -3,12 +3,10 @@
 */
 
 #unignore what we want to track
-!styles.css
-!portfoliocontactstyles.css
-!index.html
-!contact.html
-!portfolio.html
+!*.css
+!*.html
+!*.js
+!images/
+!readme.md
 !.gitignore
-!images
-!script.js
 
