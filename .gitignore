@@ -1,0 +1,14 @@
+#ignore everything
+*
+*/
+
+#unignore what we want to track
+!styles.css
+!portfoliocontactstyles.css
+!index.html
+!contact.html
+!portfolio.html
+!.gitignore
+!images
+!script.js
+
