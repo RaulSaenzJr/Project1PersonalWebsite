@@ -53,9 +53,13 @@ h2 {
 .row {
   display: flex;
   flex-wrap: wrap;
-  text-align: left;
+  text-align: center;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
 .git {
   padding-bottom: 20px;
 }
