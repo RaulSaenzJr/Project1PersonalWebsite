@@ -6,6 +6,7 @@ body {
   padding: 0 auto;
   text-align: center;
   height: 100%;
+  min-height: 100vh;
 }
 
 header {
@@ -31,6 +32,9 @@ header {
   margin: 20px 20px 20px 20px;
 }
 
+.main-content {
+  min-height: calc(65vh - 10px);
+}
 section {
   padding: 20px;
   position: relative;
@@ -54,6 +58,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 ul {
@@ -69,6 +74,7 @@ footer {
   text-align: center;
   padding: auto;
   color: #fff;
+  margin-top: 20px;
 }
 
 footer img {
