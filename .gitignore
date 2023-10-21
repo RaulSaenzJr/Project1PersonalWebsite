@@ -9,3 +9,6 @@
 !images/
 !readme.md
 !.gitignore
+!.firebaserc
+!firebase.json
+!public/index.html
