@@ -58,6 +58,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  justify-content: space-evenly;
   margin-bottom: 30px;
 }
 
